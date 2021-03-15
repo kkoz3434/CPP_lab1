@@ -13,13 +13,19 @@ Zaimplementuj podaną na zajęciach klasę reprezentującą Ulamek (ang. Fractio
     zadany zestaw metod dostępowych/modyfikujących obiekty klasy -tzw. gettery i settery,
         które umożliwią modyfikacje i pobranie wartości licznika i mianownika
     metodę print(), wypisującą atrybuty obiektu na konsolę w formie licznik/mianownik\n
-    zadany atrybut (removedFractions_) i metodę statyczną: removedFractions().
+
+    zadany atrybut (removedFractions_) i metodę statyczną: removedFractions().  na staticu i destruktor zmienic ~klasa
         Skladowa ta powinna byc incrementowana w destruktorze
+
+
+
 
     Dodaj do klasy metody zapisz(ostream& os)/wczytaj(istream& is),
         zapisujące/odczytujące zawartość obiektu do przekazanego jako parametr strumienia wyjściowego/wejściowego,
         w formacie "licznik/mianownik". Metoda wczytująca może założyć, że format danych będzie poprawny
         (nie trzeba obslugiwac bledow).
+
+
 
     Proszę o utworzenie 3 stałych w klasie i metod do odczytu (tzn. getterów):
         nazwa ułamka jako string
@@ -34,11 +40,57 @@ constexpr bool classFractionExists = false;
 constexpr bool hasNumeratorAndDenominator = false;
 constexpr bool hasConstructorWhichInitialiseFields = false;
 constexpr bool hasGettersAndSetters = false;
-constexpr bool hasPrintFunction = false;
+constexpr bool hasPrintFunction = true;
 constexpr bool counterOfDestructedFractionsImplemented = false;
 constexpr bool readWriteImplemented = false;
 constexpr bool fractionNameSettableFromConstructor = false;
 constexpr bool fractionConstStaticFieldsImplemented = false;
+
+class Fraction {
+protected:
+    int numerator;
+    int denominator;
+
+public:
+
+    static constexpr int removedFractions_ = 0;
+
+    // constructors
+    Fraction() {
+        numerator = 0;
+        denominator = 1;
+    }
+
+    Fraction(int num, int denom) {
+        numerator = num;
+        denominator = denom;
+    }
+
+    // setters and getters
+    int getNumerator() {
+        return numerator;
+    }
+
+    int getDenominator() {
+        return denominator;
+    }
+
+    void setNumerator(int s) {
+        numerator = s;
+    }
+
+    void setDenominator(int s) {
+        denominator = s;
+    }
+
+    void print(){
+        std:: cout<< numerator/denominator << std::endl;
+    }
+    static int removedFractions(){
+        return removedFractions_;
+    }
+
+};
 
 
 #endif // TASK1_FRACTION_H

@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../src/utils/argumentParsing.h
-programmerDetails.h
-../src/utils/programmerDetails.h
-
-../src/utils/programmerDetails.h
-
 /mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/src/lab/fraction.cpp
 iostream
 -
@@ -37,16 +31,6 @@ gtest/gtest.h
 -
 fraction.h
 /mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/src/lab/fraction.h
-
-/mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/src/lab/main.cpp
-iostream
--
-gtest/gtest.h
--
-utils/programmerDetails.h
-/mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/src/lab/utils/programmerDetails.h
-utils/argumentParsing.h
-/mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/src/lab/utils/argumentParsing.h
 
 _deps/googletest-src/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

@@ -30,7 +30,7 @@ message("Binary tree path: ${PROJECT_BINARY_DIR}")
 
 
 # downloading GTest if not installed:
-# bardzo nie chciał oryginał współpracować :( 
+# bardzo nie chciał oryginał współpracować :(
 enable_testing()
 find_package(GTest QUIET)
 
