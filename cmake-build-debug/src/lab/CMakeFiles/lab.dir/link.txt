@@ -1,0 +1,1 @@
+/usr/bin/c++   --std=c++17 -g -D_DEBUG   CMakeFiles/lab.dir/fraction.cpp.o CMakeFiles/lab.dir/fractionTests.cpp.o CMakeFiles/lab.dir/main.cpp.o  -o ../../bin/lab  ../../lib/libUtils.a ../../lib/libgtestd.a -lpthread --std=c++17 -lpthread 

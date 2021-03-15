@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libUtils.a  CMakeFiles/Utils.dir/argumentParsing.cpp.o CMakeFiles/Utils.dir/programmerDetails.cpp.o CMakeFiles/Utils.dir/programmersDetails.cpp.o
+/usr/bin/ranlib ../../lib/libUtils.a

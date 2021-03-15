@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/src/utils/argumentParsing.cpp
+iostream
+-
+iomanip
+-
+cstring
+-
+argumentParsing.h
+/mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/src/utils/argumentParsing.h
+programmerDetails.h
+/mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/src/utils/programmerDetails.h
+
+/mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/src/utils/argumentParsing.h
+programmerDetails.h
+/mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/src/utils/programmerDetails.h
+
+/mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/src/utils/programmerDetails.cpp
+string
+-
+programmerDetails.h
+/mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/src/utils/programmerDetails.h
+
+/mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/src/utils/programmerDetails.h
+
+/mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/src/utils/programmersDetails.cpp
+string
+-
+programmerDetails.h
+/mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/src/utils/programmerDetails.h
+

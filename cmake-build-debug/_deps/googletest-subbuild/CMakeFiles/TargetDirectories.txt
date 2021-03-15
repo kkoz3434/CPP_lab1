@@ -1,0 +1,3 @@
+/mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir

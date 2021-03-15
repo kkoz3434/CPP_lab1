@@ -1,0 +1,6 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow
+Binary tree path: /mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/cmake-build-debug
+Binary saved to: /mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/cmake-build-debug/src/lab
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/cmake-build-debug

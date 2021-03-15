@@ -1,0 +1,14 @@
+# Target labels
+ googletest
+# Source files and their labels
+C:/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/cmake-build-debug/googletest-download/CMakeFiles/googletest
+C:/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/cmake-build-debug/googletest-download/CMakeFiles/googletest.rule
+C:/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/cmake-build-debug/googletest-download/CMakeFiles/googletest-complete.rule
+C:/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/cmake-build-debug/googletest-download/googletest-prefix/src/googletest-stamp/googletest-install.rule
+C:/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/cmake-build-debug/googletest-download/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule
+C:/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/cmake-build-debug/googletest-download/googletest-prefix/src/googletest-stamp/googletest-download.rule
+C:/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/cmake-build-debug/googletest-download/googletest-prefix/src/googletest-stamp/googletest-update.rule
+C:/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/cmake-build-debug/googletest-download/googletest-prefix/src/googletest-stamp/googletest-patch.rule
+C:/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/cmake-build-debug/googletest-download/googletest-prefix/src/googletest-stamp/googletest-configure.rule
+C:/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/cmake-build-debug/googletest-download/googletest-prefix/src/googletest-stamp/googletest-build.rule
+C:/Users/Aaa/Desktop/zaj1_dlaStudentow/zaj1_dlaStudentow/cmake-build-debug/googletest-download/googletest-prefix/src/googletest-stamp/googletest-test.rule
