@@ -1,0 +1,23 @@
+FractionTester.classFractionExists 0 0
+FractionTester.hasNumeratorAndDenominator 0 0
+FractionTester.checkIfHasDefaultConstructor 0 0
+FractionTester.hasConstructorWhichInitialiseFields 0 0
+FractionTester.hasGettersAndSetters 0 0
+FractionTester.hasPrintFunction 0 0
+FractionTester.counterOfDestructedFractionsImplemented 0 0
+FractionTester.saveImplemented 0 0
+FractionTester.loadImplemented 0 0
+FractionTester.fractionNameSettableFromConstructor 0 0
+FractionTester.fractionConstStaticFieldsImplemented 0 0
+---
+FractionTester.classFractionExists
+FractionTester.hasNumeratorAndDenominator
+FractionTester.checkIfHasDefaultConstructor
+FractionTester.hasConstructorWhichInitialiseFields
+FractionTester.hasGettersAndSetters
+FractionTester.hasPrintFunction
+FractionTester.counterOfDestructedFractionsImplemented
+FractionTester.saveImplemented
+FractionTester.loadImplemented
+FractionTester.fractionNameSettableFromConstructor
+FractionTester.fractionConstStaticFieldsImplemented

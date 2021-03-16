@@ -45,7 +45,7 @@ constexpr bool hasConstructorWhichInitialiseFields = true;
 constexpr bool hasGettersAndSetters = true;
 constexpr bool hasPrintFunction = true;
 constexpr bool counterOfDestructedFractionsImplemented = true;
-constexpr bool readWriteImplemented = false;
+constexpr bool readWriteImplemented = true;
 constexpr bool fractionNameSettableFromConstructor = true;
 constexpr bool fractionConstStaticFieldsImplemented = true;
 
@@ -98,7 +98,7 @@ public:
     }
 
     void print() const {
-        std::string result = std::to_string(numerator) + "/" + std::to_string(denominator);
+        std::string result = std::to_string(numerator) + "/" + std::to_string(denominator)+"\n";
         std::cout << result;
     }
 
@@ -106,23 +106,26 @@ public:
         return removedFractions_;
     }
 
-    void save(ostream& os){
-        int a,b;
-        os << a;
-        os << b;
-        numerator = a;
-        denominator = b;
+    void save(std::ostream& os) const{
+       os<<numerator << "/"<<denominator;
     }
 
-    void load(istream& is){
+    void load(std::istream& is){
+        std:: string input;
+        is>>input;
 
+        int divider = 0;
+        while(input[divider] != '/'){
+            divider++;
+        }
+        numerator = std::stoi(input.substr(0, divider));
+        divider++;
+        denominator = std::stoi(input.substr(divider, input.length()));
     }
 
     std::string getFractionName(){
         return fractionName;
     }
-
-
 };
 
 

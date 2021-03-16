@@ -1,0 +1,11 @@
+1:FractionTester.classFractionExists
+2:FractionTester.hasNumeratorAndDenominator
+3:FractionTester.checkIfHasDefaultConstructor
+4:FractionTester.hasConstructorWhichInitialiseFields
+5:FractionTester.hasGettersAndSetters
+6:FractionTester.hasPrintFunction
+7:FractionTester.counterOfDestructedFractionsImplemented
+8:FractionTester.saveImplemented
+9:FractionTester.loadImplemented
+10:FractionTester.fractionNameSettableFromConstructor
+11:FractionTester.fractionConstStaticFieldsImplemented
